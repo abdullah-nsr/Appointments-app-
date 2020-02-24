@@ -1,0 +1,17 @@
+GET http://localhost:3000/appointments 
+
+####
+GET http://localhost:3000/appointments/id
+
+###
+POST http://localhost:3000/appointments
+Content-Type: application/json
+
+{ 
+    "appointmentDate": "22.02.2020",
+    "name": "ana3",
+    "email": "ana3@gogo"
+}
+
+###
+DELETE http://localhost:3000/appointments/5e4cccf813235a5a11813907
